@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".registerActivity">
+
+  <TextView
+      android:id="@+id/textView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="40dp"
+      android:fontFamily="sans-serif-condensed"
+      android:text="REGISTER"
+      android:textColor="@color/primary"
+      android:textSize="30sp"
+      android:layout_marginBottom="20dp"
+      android:textStyle="bold" />
+
+  <EditText
+      android:id="@+id/unEt"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="50dp"
+      android:layout_marginRight="50dp"
+      android:layout_marginTop="20dp"
+      android:background="@drawable/edit_text_bg"
+      android:ems="10"
+      android:hint="User name"
+      android:inputType="text"
+      android:padding="8dp" />
+  <EditText
+      android:id="@+id/cEt"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="50dp"
+      android:layout_marginRight="50dp"
+      android:layout_marginTop="20dp"
+      android:background="@drawable/edit_text_bg"
+      android:ems="10"
+      android:hint="Class"
+      android:inputType="text"
+      android:padding="8dp" />
+  <EditText
+      android:id="@+id/eEt"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="50dp"
+      android:layout_marginRight="50dp"
+      android:layout_marginTop="20dp"
+      android:background="@drawable/edit_text_bg"
+      android:ems="10"
+      android:hint="E-mail"
+      android:inputType="text"
+      android:padding="8dp" />
+  <EditText
+      android:id="@+id/pEt"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="50dp"
+      android:layout_marginRight="50dp"
+      android:layout_marginTop="20dp"
+      android:background="@drawable/edit_text_bg"
+      android:ems="10"
+      android:hint="Password"
+      android:inputType="text"
+      android:padding="8dp" />
+
+  <Button
+      android:id="@+id/registerBtn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="50dp"
+      android:backgroundTint="@color/primary"
+      android:text="Register"
+      android:fontFamily="sans-serif"
+      android:textColor="@color/black"
+      tools:layout_editor_absoluteY="430dp" />
+
+</LinearLayout>

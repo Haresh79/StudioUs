@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "709891272756",
+    "project_id": "studious-e678d",
+    "storage_bucket": "studious-e678d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709891272756:android:cab47e910f1b309d555a61",
+        "android_client_info": {
+          "package_name": "com.example.studious"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeIKEGmBpZRxbDcqtH1RSgJOiyFFboZh4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
