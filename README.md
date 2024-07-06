@@ -23,7 +23,7 @@
         2. Create a new Android project in Android Studio.
         3. Clone this repository into your project directory:
 
-   git clone https://github.com/your-username/studious.git
+   git clone https://github.com/Haresh79/studious.git
     </pre>
 
   <h3>Running the App</h3>
@@ -32,6 +32,7 @@
         2. Ensure you have a connected Android device or emulator.
         3. Click the "Run" button to build and deploy the app to your device.
         4. Sign up or log in to your Studious account and start exploring!
+        **note** : to run this app in your android ﻿phone please download the apk file of the APP which provided here.
     </pre>
 
   <h2>Contributing</h2>
